@@ -1,0 +1,28 @@
+.header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 40px;
+  color: #db273a;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard_stat_card {
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 4rem;
+  min-width: 350px;
+  min-height: 150px;
+  bottom: 0;
+  border-radius: 0.75rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: #f6dadc;
+}
+
+.dashboard_stat_card:hover {
+  background-color: #efcbcd;
+}

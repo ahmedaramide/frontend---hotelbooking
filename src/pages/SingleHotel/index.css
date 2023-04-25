@@ -1,0 +1,348 @@
+.single_hotel_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.single_hotel_header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 40px;
+  color: #db273a;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.single_hotel_details_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.single_hotel_details_image_container {
+  width: 40%;
+}
+
+.single_hotel_details_image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.single_hotel_details_info_container {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.single_hotel_info {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.single_hotel_info_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 22px;
+  color: #db273a;
+  margin-bottom: 0.5rem;
+}
+
+.single_hotel_info_description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 22px;
+  color: #333333;
+}
+
+.review__container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.review__header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #333333;
+  margin-bottom: 0.5rem;
+}
+
+.review__container__card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.review__container__card__header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.review__container__card__header > img {
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  max-width: 100% !important;
+}
+
+.review__container__card__header > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 22px;
+  color: #333333;
+}
+
+.review__container__card__stat {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin-top: 0.4rem;
+}
+
+.review__container__card__stat > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 20px;
+  color: #999999;
+}
+
+.review__container__card__stat > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 20px;
+  color: #666666;
+}
+
+.review__container__card__comment {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 20px;
+  color: #333333;
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.divider {
+  width: 100%;
+  height: 1.5px !important;
+}
+
+.booking__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  padding-left: 3rem;
+}
+
+.search_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking__room__picker {
+  max-width: 350px;
+  width: 100%;
+  height: 40px;
+}
+
+.booking__date__picker {
+  max-width: 350px;
+  width: 100%;
+  height: 40px;
+}
+
+.booking__button {
+  background-color: #db273a;
+  color: #ffffff;
+  padding: 0.8rem 1rem;
+  max-width: 350px;
+  width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.booking__button:hover {
+  background-color: #c41123;
+}
+
+.rooms__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 2rem;
+  padding-left: 3rem;
+}
+
+.rooms__container__room {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 0.5rem;
+}
+
+.tooltip__container {
+  padding: 1rem;
+}
+
+.tooltip_item {
+  margin-bottom: 0.5rem;
+}
+
+.tooltip_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 22px;
+  color: #ef7884;
+}
+
+.tooltip_description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 22px;
+}
+
+.add_comment {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.comment__text {
+  resize: none;
+  border-radius: 5px;
+  padding: 0.7rem;
+  max-width: 350px;
+  width: 90%;
+  background-color: #ffffff;
+  border: 2px solid #909090;
+  margin-bottom: 0.7rem;
+}
+
+.comment__submit__button {
+  background-color: #0f0071;
+  color: #ffffff;
+  padding: 0.8rem 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.comment__submit__button:hover {
+  background-color: #0d005e;
+}
+
+.comment__cancel__button {
+  background-color: #db273a;
+  color: #ffffff;
+  padding: 0.8rem 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.comment__cancel__button:hover {
+  background-color: #c41123;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 500px) {
+  .booking__container {
+    padding: 1rem;
+    padding-left: 1.5rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .single_hotel_header {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .single_hotel_info_title {
+    font-size: 1.1rem;
+    line-height: 22px;
+  }
+  .single_hotel_info_description {
+    font-size: 0.9rem;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .single_hotel_details_container {
+    flex-direction: column;
+  }
+  .single_hotel_details_image_container {
+    width: 100%;
+  }
+  .single_hotel_details_info_container {
+    width: 100%;
+  }
+}
